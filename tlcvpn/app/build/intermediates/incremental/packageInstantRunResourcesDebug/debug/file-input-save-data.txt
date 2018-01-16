@@ -1,0 +1,18 @@
+#Internal package file, do not edit.
+#Thu Nov 09 01:39:09 PST 2017
+1.base=C\:\\workspace\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
+4.file=C\:\\workspace\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-hdpi-v4\\ic_vpn.png
+1.file=C\:\\workspace\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\AndroidManifest.xml
+4.set=ANDROID_RESOURCE
+2.base=C\:\\workspace\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
+3.set=ANDROID_RESOURCE
+2.set=ANDROID_RESOURCE
+2.file=C\:\\workspace\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\layout\\form.xml
+count=5
+1.set=ANDROID_RESOURCE
+3.base=C\:\\workspace\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
+0.set=ANDROID_RESOURCE
+0.base=C\:\\workspace\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
+3.file=C\:\\workspace\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\resources.arsc
+0.file=C\:\\workspace\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-anydpi-v21\\ic_vpn.xml
+4.base=C\:\\workspace\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_

@@ -1,0 +1,4 @@
+#Thu Nov 09 01:39:14 PST 2017
+base.0=C\:\\workspace\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+renamed.0=classes.dex
+file.0=C\:\\workspace\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3\\classes.dex

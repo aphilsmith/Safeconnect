@@ -1,0 +1,81 @@
+{
+  "buildFiles": [
+    "C:\\workspace\\app\\src\\main\\jni\\Android.mk",
+    "C:\\workspace\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Android\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\workspace\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\workspace\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dC:/workspace/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\workspace\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "edge-release-armeabi-v7a": {
+      "buildCommand": "C:\\Android\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\workspace\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\workspace\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dC:/workspace/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\workspace\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/workspace/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libedge.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "edge",
+      "files": [
+        {
+          "src": "C:\\workspace\\app\\src\\main\\jni\\edge.c",
+          "flags": "\"-gcc-toolchain\" \"C:/Android/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi14\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-IC:/workspace/app/src/main/jni/include-all\" \"-IC:/workspace/app/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d14\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"C:/Android/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Android/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "C:\\workspace\\app\\src\\main\\jni\\minilzo.c",
+          "flags": "\"-gcc-toolchain\" \"C:/Android/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi14\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-IC:/workspace/app/src/main/jni/include-all\" \"-IC:/workspace/app/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d14\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"C:/Android/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Android/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "C:\\workspace\\app\\src\\main\\jni\\n2n.c",
+          "flags": "\"-gcc-toolchain\" \"C:/Android/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi14\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-IC:/workspace/app/src/main/jni/include-all\" \"-IC:/workspace/app/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d14\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"C:/Android/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Android/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "C:\\workspace\\app\\src\\main\\jni\\n2n_keyfile.c",
+          "flags": "\"-gcc-toolchain\" \"C:/Android/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi14\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-IC:/workspace/app/src/main/jni/include-all\" \"-IC:/workspace/app/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d14\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"C:/Android/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Android/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "C:\\workspace\\app\\src\\main\\jni\\transform_aes.c",
+          "flags": "\"-gcc-toolchain\" \"C:/Android/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi14\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-IC:/workspace/app/src/main/jni/include-all\" \"-IC:/workspace/app/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d14\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"C:/Android/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Android/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "C:\\workspace\\app\\src\\main\\jni\\transform_null.c",
+          "flags": "\"-gcc-toolchain\" \"C:/Android/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi14\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-IC:/workspace/app/src/main/jni/include-all\" \"-IC:/workspace/app/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d14\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"C:/Android/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Android/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "C:\\workspace\\app\\src\\main\\jni\\transform_tf.c",
+          "flags": "\"-gcc-toolchain\" \"C:/Android/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi14\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-IC:/workspace/app/src/main/jni/include-all\" \"-IC:/workspace/app/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d14\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"C:/Android/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Android/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "C:\\workspace\\app\\src\\main\\jni\\tuntap_freebsd.c",
+          "flags": "\"-gcc-toolchain\" \"C:/Android/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi14\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-IC:/workspace/app/src/main/jni/include-all\" \"-IC:/workspace/app/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d14\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"C:/Android/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Android/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "C:\\workspace\\app\\src\\main\\jni\\tuntap_linux.c",
+          "flags": "\"-gcc-toolchain\" \"C:/Android/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi14\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-IC:/workspace/app/src/main/jni/include-all\" \"-IC:/workspace/app/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d14\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"C:/Android/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Android/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "C:\\workspace\\app\\src\\main\\jni\\tuntap_osx.c",
+          "flags": "\"-gcc-toolchain\" \"C:/Android/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi14\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-IC:/workspace/app/src/main/jni/include-all\" \"-IC:/workspace/app/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d14\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"C:/Android/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Android/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "C:\\workspace\\app\\src\\main\\jni\\twofish.c",
+          "flags": "\"-gcc-toolchain\" \"C:/Android/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi14\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-IC:/workspace/app/src/main/jni/include-all\" \"-IC:/workspace/app/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d14\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"C:/Android/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Android/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "C:\\workspace\\app\\src\\main\\jni\\version.c",
+          "flags": "\"-gcc-toolchain\" \"C:/Android/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi14\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-IC:/workspace/app/src/main/jni/include-all\" \"-IC:/workspace/app/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d14\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"C:/Android/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Android/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "C:\\workspace\\app\\src\\main\\jni\\wire.c",
+          "flags": "\"-gcc-toolchain\" \"C:/Android/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi14\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-IC:/workspace/app/src/main/jni/include-all\" \"-IC:/workspace/app/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d14\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"C:/Android/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Android/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi\""
+        }
+      ],
+      "output": "C:\\workspace\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libedge.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cCompilerExecutable": "C:\\Android\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
